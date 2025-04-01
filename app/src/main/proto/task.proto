@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "com.ninhtbm.vcl.proto";
+option java_multiple_files = true;
+
+message TaskProto {
+  string id = 1;
+  string name = 2;
+  optional int32 icon = 3;
+  int32 duration_seconds = 4;
+}
+
+message TaskOrderProto {
+  repeated TaskProto list_task = 1;
+  repeated string order = 2;
+}
