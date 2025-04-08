@@ -1,5 +1,7 @@
 [versions]
+koin = "3.5.0"
 
 [libraries]
+koin-android-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
 
 [plugins]

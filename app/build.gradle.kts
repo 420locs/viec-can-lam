@@ -60,6 +60,9 @@ dependencies {
     // Kotlin Datetime
     implementation(libs.kotlinx.datetime)
 
+    // Koin injection
+    implementation(thirdPartyLibs.koin.android.compose)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
